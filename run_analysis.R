@@ -60,3 +60,25 @@ colnames(extractedData) <- extractedLabel
 
 write.csv(extractedData, 'extractedData.txt')
 
+
+# Step 5
+
+# The colmean based on Activity
+meanActivity=data.frame(matrix(NA, nrow=79, ncol=6))
+
+for(i in 1:79)
+{
+  meanActivity[i,] <- tapply(extractedData[,i], extractedData$Activity, mean)
+}
+
+write.csv(meanActivity, 'meanActivity.txt')
+
+# The colmean based on Subject
+meanSubject=data.frame(matrix(NA, nrow=79, ncol=30))
+
+for(i in 1:79)
+{
+  meanSubject[i,] <- tapply(extractedData[,i], extractedData$Subject, mean)
+}
+
+write.csv(meanSubject, 'meanSubject.txt')
