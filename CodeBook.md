@@ -100,15 +100,15 @@ Created by Bindi Chen
  
 25. "Time.Body.Gyroscopic.Jerk.Mean.X"                        
 
-    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+    Mean of the time measurement for the Gyroscopic in the X axis due to Body.
  
 26. "Time.Body.Gyroscopic.Jerk.Mean.Y"                        
 
-    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+    Mean of the time measurement for the Gyroscopic in the X axis due to Body.
  
 27. "Time.Body.Gyroscopic.Jerk.Mean.Z"                        
 
-    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+    Mean of the time measurement for the Gyroscopic in the X axis due to Body.
  
 28. "Time.Body.Gyroscopic.Jerk.StdDev.X"                      
 
@@ -124,7 +124,7 @@ Created by Bindi Chen
  
 31. "Time.Body.Acceleration.Magnitude.Mean"                   
 
-    Standard Deviation of the time measurement for the acceleration in Magnitude due to Body.
+    Mean of the time measurement for the acceleration in Magnitude due to Body.
  
 32. "Time.Body.Acceleration.Magnitude.StdDev"                 
 
@@ -132,7 +132,7 @@ Created by Bindi Chen
  
 33. "Time.Gravity.Acceleration.Magnitude.Mean"                
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 34. "Time.Gravity.Acceleration.Magnitude.StdDev"              
 
@@ -140,7 +140,7 @@ Created by Bindi Chen
  
 35. "Time.Body.Acceleration.Jerk.Magnitude.Mean"              
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 36. "Time.Body.Acceleration.Jerk.Magnitude.StdDev"            
 
@@ -148,7 +148,7 @@ Created by Bindi Chen
  
 37. "Time.Body.Gyroscopic.Magnitude.Mean"                     
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 38. "Time.Body.Gyroscopic.Magnitude.StdDev"                   
 
@@ -156,7 +156,7 @@ Created by Bindi Chen
  
 39. "Time.Body.Gyroscopic.Jerk.Magnitude.Mean"                
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 40. "Time.Body.Gyroscopic.Jerk.Magnitude.StdDev"              
 
@@ -164,15 +164,15 @@ Created by Bindi Chen
  
 41. "Frequency.Body.Acceleration.Mean.X"                      
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 42. "Frequency.Body.Acceleration.Mean.Y"                      
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 43. "Frequency.Body.Acceleration.Mean.Z"                      
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 44. "Frequency.Body.Acceleration.StdDev.X"                    
 
@@ -188,27 +188,27 @@ Created by Bindi Chen
  
 47. "Frequency.Body.Acceleration.Mean.Freq.X"                 
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 48. "Frequency.Body.Acceleration.Mean.Freq.Y"                 
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 49. "Frequency.Body.Acceleration.Mean.Freq.Z"                 
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 50. "Frequency.Body.Acceleration.Jerk.Mean.X"                 
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 51. "Frequency.Body.Acceleration.Jerk.Mean.Y"                 
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 52. "Frequency.Body.Acceleration.Jerk.Mean.Z"                 
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 53. "Frequency.Body.Acceleration.Jerk.StdDev.X"               
 
@@ -224,27 +224,27 @@ Created by Bindi Chen
  
 56. "Frequency.Body.Acceleration.Jerk.Mean.Freq.X"            
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 57. "Frequency.Body.Acceleration.Jerk.Mean.Freq.Y"            
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 58. "Frequency.Body.Acceleration.Jerk.Mean.Freq.Z"            
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 59. "Frequency.Body.Gyroscopic.Mean.X"                        
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 60. "Frequency.Body.Gyroscopic.Mean.Y"                        
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 61. "Frequency.Body.Gyroscopic.Mean.Z"                        
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 62. "Frequency.Body.Gyroscopic.StdDev.X"                      
 
@@ -260,19 +260,19 @@ Created by Bindi Chen
  
 65. "Frequency.Body.Gyroscopic.Mean.Freq.X"                   
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 66. "Frequency.Body.Gyroscopic.Mean.Freq.Y"                   
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 67. "Frequency.Body.Gyroscopic.Mean.Freq.Z"                   
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 68. "Frequency.Body.Acceleration.Magnitude.Mean"              
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 69. "Frequency.Body.Acceleration.Magnitude.StdDev"            
 
@@ -280,11 +280,11 @@ Created by Bindi Chen
  
 70. "Frequency.Body.Acceleration.Magnitude.Mean.Freq"         
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 71. "Frequency.Body.BodyAcceleration.Jerk.Magnitude.Mean"     
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 72. "Frequency.Body.BodyAcceleration.Jerk.Magnitude.StdDev"   
 
@@ -292,11 +292,11 @@ Created by Bindi Chen
  
 73. "Frequency.Body.BodyAcceleration.Jerk.Magnitude.Mean.Freq"
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 74. "Frequency.Body.BodyGyroscopic.Magnitude.Mean"            
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 75. "Frequency.Body.BodyGyroscopic.Magnitude.StdDev"          
 
@@ -304,11 +304,11 @@ Created by Bindi Chen
  
 76. "Frequency.Body.BodyGyroscopic.Magnitude.Mean.Freq"       
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 77. "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.Mean"       
 
-    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+    Mean of the time measurement for the acceleration in the X axis due to Body.
  
 78. "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.StdDev"     
 
