@@ -1,6 +1,6 @@
 This is the CodeBook. Created by Bindi Chen
 
-[1] "Time.Body.Acceleration.Mean.X"
+[1] "Time.Body.Acceleration.Mean.X"\n
     Mean of the time measurement for the acceleration in the X axis due to Body.
     
 [2] "Time.Body.Acceleration.Mean.Y"
