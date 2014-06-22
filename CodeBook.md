@@ -1,91 +1,328 @@
-This is the CodeBook. Created by Bindi Chen
+##This is the CodeBook##
 
-[1] "Time.Body.Acceleration.Mean.X"\n
+Created by Bindi Chen
+
+1. "Time.Body.Acceleration.Mean.X"
+
     Mean of the time measurement for the acceleration in the X axis due to Body.
     
-[2] "Time.Body.Acceleration.Mean.Y"
+2. "Time.Body.Acceleration.Mean.Y"
+
     Mean of the time measurement for the acceleration in the Y axis due to Body.
     
-[3] "Time.Body.Acceleration.Mean.Z"    
+3. "Time.Body.Acceleration.Mean.Z"    
+
     Mean of the time measurement for the acceleration in the Z axis due to Body.
  
-[4] "Time.Body.Acceleration.StdDev.X"
+4. "Time.Body.Acceleration.StdDev.X"
+
     Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
  
-[5] "Time.Body.Acceleration.StdDev.Y"                         
-[6] "Time.Body.Acceleration.StdDev.Z"                         
-[7] "Time.Gravity.Acceleration.Mean.X"                        
-[8] "Time.Gravity.Acceleration.Mean.Y"                        
-[9] "Time.Gravity.Acceleration.Mean.Z"                        
-[10] "Time.Gravity.Acceleration.StdDev.X"                      
-[11] "Time.Gravity.Acceleration.StdDev.Y"                      
-[12] "Time.Gravity.Acceleration.StdDev.Z"                      
-[13] "Time.Body.Acceleration.Jerk.Mean.X"                      
-[14] "Time.Body.Acceleration.Jerk.Mean.Y"                      
-[15] "Time.Body.Acceleration.Jerk.Mean.Z"                      
-[16] "Time.Body.Acceleration.Jerk.StdDev.X"                    
-[17] "Time.Body.Acceleration.Jerk.StdDev.Y"                    
-[18] "Time.Body.Acceleration.Jerk.StdDev.Z"                    
-[19] "Time.Body.Gyroscopic.Mean.X"                             
-[20] "Time.Body.Gyroscopic.Mean.Y"                             
-[21] "Time.Body.Gyroscopic.Mean.Z"                             
-[22] "Time.Body.Gyroscopic.StdDev.X"                           
-[23] "Time.Body.Gyroscopic.StdDev.Y"                           
-[24] "Time.Body.Gyroscopic.StdDev.Z"                           
-[25] "Time.Body.Gyroscopic.Jerk.Mean.X"                        
-[26] "Time.Body.Gyroscopic.Jerk.Mean.Y"                        
-[27] "Time.Body.Gyroscopic.Jerk.Mean.Z"                        
-[28] "Time.Body.Gyroscopic.Jerk.StdDev.X"                      
-[29] "Time.Body.Gyroscopic.Jerk.StdDev.Y"                      
-[30] "Time.Body.Gyroscopic.Jerk.StdDev.Z"                      
-[31] "Time.Body.Acceleration.Magnitude.Mean"                   
-[32] "Time.Body.Acceleration.Magnitude.StdDev"                 
-[33] "Time.Gravity.Acceleration.Magnitude.Mean"                
-[34] "Time.Gravity.Acceleration.Magnitude.StdDev"              
-[35] "Time.Body.Acceleration.Jerk.Magnitude.Mean"              
-[36] "Time.Body.Acceleration.Jerk.Magnitude.StdDev"            
-[37] "Time.Body.Gyroscopic.Magnitude.Mean"                     
-[38] "Time.Body.Gyroscopic.Magnitude.StdDev"                   
-[39] "Time.Body.Gyroscopic.Jerk.Magnitude.Mean"                
-[40] "Time.Body.Gyroscopic.Jerk.Magnitude.StdDev"              
-[41] "Frequency.Body.Acceleration.Mean.X"                      
-[42] "Frequency.Body.Acceleration.Mean.Y"                      
-[43] "Frequency.Body.Acceleration.Mean.Z"                      
-[44] "Frequency.Body.Acceleration.StdDev.X"                    
-[45] "Frequency.Body.Acceleration.StdDev.Y"                    
-[46] "Frequency.Body.Acceleration.StdDev.Z"                    
-[47] "Frequency.Body.Acceleration.Mean.Freq.X"                 
-[48] "Frequency.Body.Acceleration.Mean.Freq.Y"                 
-[49] "Frequency.Body.Acceleration.Mean.Freq.Z"                 
-[50] "Frequency.Body.Acceleration.Jerk.Mean.X"                 
-[51] "Frequency.Body.Acceleration.Jerk.Mean.Y"                 
-[52] "Frequency.Body.Acceleration.Jerk.Mean.Z"                 
-[53] "Frequency.Body.Acceleration.Jerk.StdDev.X"               
-[54] "Frequency.Body.Acceleration.Jerk.StdDev.Y"               
-[55] "Frequency.Body.Acceleration.Jerk.StdDev.Z"               
-[56] "Frequency.Body.Acceleration.Jerk.Mean.Freq.X"            
-[57] "Frequency.Body.Acceleration.Jerk.Mean.Freq.Y"            
-[58] "Frequency.Body.Acceleration.Jerk.Mean.Freq.Z"            
-[59] "Frequency.Body.Gyroscopic.Mean.X"                        
-[60] "Frequency.Body.Gyroscopic.Mean.Y"                        
-[61] "Frequency.Body.Gyroscopic.Mean.Z"                        
-[62] "Frequency.Body.Gyroscopic.StdDev.X"                      
-[63] "Frequency.Body.Gyroscopic.StdDev.Y"                      
-[64] "Frequency.Body.Gyroscopic.StdDev.Z"                      
-[65] "Frequency.Body.Gyroscopic.Mean.Freq.X"                   
-[66] "Frequency.Body.Gyroscopic.Mean.Freq.Y"                   
-[67] "Frequency.Body.Gyroscopic.Mean.Freq.Z"                   
-[68] "Frequency.Body.Acceleration.Magnitude.Mean"              
-[69] "Frequency.Body.Acceleration.Magnitude.StdDev"            
-[70] "Frequency.Body.Acceleration.Magnitude.Mean.Freq"         
-[71] "Frequency.Body.BodyAcceleration.Jerk.Magnitude.Mean"     
-[72] "Frequency.Body.BodyAcceleration.Jerk.Magnitude.StdDev"   
-[73] "Frequency.Body.BodyAcceleration.Jerk.Magnitude.Mean.Freq"
-[74] "Frequency.Body.BodyGyroscopic.Magnitude.Mean"            
-[75] "Frequency.Body.BodyGyroscopic.Magnitude.StdDev"          
-[76] "Frequency.Body.BodyGyroscopic.Magnitude.Mean.Freq"       
-[77] "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.Mean"       
-[78] "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.StdDev"     
-[79] "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.Mean.Freq"  
-[80] "Subject"                                                 
-[81] "Activity"
+5. "Time.Body.Acceleration.StdDev.Y"                         
+
+    Standard Deviation of the time measurement for the acceleration in the Y axis due to Body.
+
+6. "Time.Body.Acceleration.StdDev.Z"                         
+
+    Standard Deviation of the time measurement for the acceleration in the Z axis due to Body.
+ 
+7. "Time.Gravity.Acceleration.Mean.X"                        
+
+    Mean of the time measurement for the acceleration in the X axis due to Gravity.
+ 
+8. "Time.Gravity.Acceleration.Mean.Y"                        
+
+    Mean of the time measurement for the acceleration in the Y axis due to Gravity.
+ 
+9. "Time.Gravity.Acceleration.Mean.Z"                        
+
+    Mean of the time measurement for the acceleration in the Z axis due to Gravity.
+ 
+10. "Time.Gravity.Acceleration.StdDev.X"                      
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Gravity.
+ 
+11. "Time.Gravity.Acceleration.StdDev.Y"                      
+
+    Standard Deviation of the time measurement for the acceleration in the Y axis due to Gravity.
+ 
+12. "Time.Gravity.Acceleration.StdDev.Z"                      
+
+    Standard Deviation of the time measurement for the acceleration in the Z axis due to Gravity.
+ 
+13. "Time.Body.Acceleration.Jerk.Mean.X"                      
+
+    Mean of the time measurement for the acceleration in the X axis due to Body.
+ 
+14. "Time.Body.Acceleration.Jerk.Mean.Y"                      
+
+    Mean of the time measurement for the acceleration in the Y axis due to Body.
+ 
+15. "Time.Body.Acceleration.Jerk.Mean.Z"                      
+
+    Mean of the time measurement for the acceleration in the Z axis due to Body.
+ 
+16. "Time.Body.Acceleration.Jerk.StdDev.X"                    
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+17. "Time.Body.Acceleration.Jerk.StdDev.Y"                    
+
+    Standard Deviation of the time measurement for the acceleration in the Y axis due to Body.
+ 
+18. "Time.Body.Acceleration.Jerk.StdDev.Z"                    
+
+    Standard Deviation of the time measurement for the acceleration in the Z axis due to Body.
+ 
+19. "Time.Body.Gyroscopic.Mean.X"                             
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+20. "Time.Body.Gyroscopic.Mean.Y"                             
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+21. "Time.Body.Gyroscopic.Mean.Z"                             
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+22. "Time.Body.Gyroscopic.StdDev.X"                           
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+23. "Time.Body.Gyroscopic.StdDev.Y"                           
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+24. "Time.Body.Gyroscopic.StdDev.Z"                           
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+25. "Time.Body.Gyroscopic.Jerk.Mean.X"                        
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+26. "Time.Body.Gyroscopic.Jerk.Mean.Y"                        
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+27. "Time.Body.Gyroscopic.Jerk.Mean.Z"                        
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+28. "Time.Body.Gyroscopic.Jerk.StdDev.X"                      
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+29. "Time.Body.Gyroscopic.Jerk.StdDev.Y"                      
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+30. "Time.Body.Gyroscopic.Jerk.StdDev.Z"                      
+
+    Standard Deviation of the time measurement for the Gyroscopic in the X axis due to Body.
+ 
+31. "Time.Body.Acceleration.Magnitude.Mean"                   
+
+    Standard Deviation of the time measurement for the acceleration in Magnitude due to Body.
+ 
+32. "Time.Body.Acceleration.Magnitude.StdDev"                 
+
+    Standard Deviation of the time measurement for the acceleration in Magnitude due to Body.
+ 
+33. "Time.Gravity.Acceleration.Magnitude.Mean"                
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+34. "Time.Gravity.Acceleration.Magnitude.StdDev"              
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+35. "Time.Body.Acceleration.Jerk.Magnitude.Mean"              
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+36. "Time.Body.Acceleration.Jerk.Magnitude.StdDev"            
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+37. "Time.Body.Gyroscopic.Magnitude.Mean"                     
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+38. "Time.Body.Gyroscopic.Magnitude.StdDev"                   
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+39. "Time.Body.Gyroscopic.Jerk.Magnitude.Mean"                
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+40. "Time.Body.Gyroscopic.Jerk.Magnitude.StdDev"              
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+41. "Frequency.Body.Acceleration.Mean.X"                      
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+42. "Frequency.Body.Acceleration.Mean.Y"                      
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+43. "Frequency.Body.Acceleration.Mean.Z"                      
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+44. "Frequency.Body.Acceleration.StdDev.X"                    
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+45. "Frequency.Body.Acceleration.StdDev.Y"                    
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+46. "Frequency.Body.Acceleration.StdDev.Z"                    
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+47. "Frequency.Body.Acceleration.Mean.Freq.X"                 
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+48. "Frequency.Body.Acceleration.Mean.Freq.Y"                 
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+49. "Frequency.Body.Acceleration.Mean.Freq.Z"                 
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+50. "Frequency.Body.Acceleration.Jerk.Mean.X"                 
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+51. "Frequency.Body.Acceleration.Jerk.Mean.Y"                 
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+52. "Frequency.Body.Acceleration.Jerk.Mean.Z"                 
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+53. "Frequency.Body.Acceleration.Jerk.StdDev.X"               
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+54. "Frequency.Body.Acceleration.Jerk.StdDev.Y"               
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+55. "Frequency.Body.Acceleration.Jerk.StdDev.Z"               
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+56. "Frequency.Body.Acceleration.Jerk.Mean.Freq.X"            
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+57. "Frequency.Body.Acceleration.Jerk.Mean.Freq.Y"            
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+58. "Frequency.Body.Acceleration.Jerk.Mean.Freq.Z"            
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+59. "Frequency.Body.Gyroscopic.Mean.X"                        
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+60. "Frequency.Body.Gyroscopic.Mean.Y"                        
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+61. "Frequency.Body.Gyroscopic.Mean.Z"                        
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+62. "Frequency.Body.Gyroscopic.StdDev.X"                      
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+63. "Frequency.Body.Gyroscopic.StdDev.Y"                      
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+64. "Frequency.Body.Gyroscopic.StdDev.Z"                      
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+65. "Frequency.Body.Gyroscopic.Mean.Freq.X"                   
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+66. "Frequency.Body.Gyroscopic.Mean.Freq.Y"                   
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+67. "Frequency.Body.Gyroscopic.Mean.Freq.Z"                   
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+68. "Frequency.Body.Acceleration.Magnitude.Mean"              
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+69. "Frequency.Body.Acceleration.Magnitude.StdDev"            
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+70. "Frequency.Body.Acceleration.Magnitude.Mean.Freq"         
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+71. "Frequency.Body.BodyAcceleration.Jerk.Magnitude.Mean"     
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+72. "Frequency.Body.BodyAcceleration.Jerk.Magnitude.StdDev"   
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+73. "Frequency.Body.BodyAcceleration.Jerk.Magnitude.Mean.Freq"
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+74. "Frequency.Body.BodyGyroscopic.Magnitude.Mean"            
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+75. "Frequency.Body.BodyGyroscopic.Magnitude.StdDev"          
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+76. "Frequency.Body.BodyGyroscopic.Magnitude.Mean.Freq"       
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+77. "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.Mean"       
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+78. "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.StdDev"     
+
+    Standard Deviation of the time measurement for the acceleration in the X axis due to Body.
+ 
+79. "Frequency.Body.BodyGyroscopic.Jerk.Magnitude.Mean.Freq"  
+
+    Mean Frequency of the time measurement for the Jerk Magnitiude due to Body.
+ 
+80. "Subject"                                                 
+
+    The subject
+ 
+81. "Activity"
+
+    The Activity, "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"
+ 
